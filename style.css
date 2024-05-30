@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+}
+/*Styling for the body element*/
+#signupBG{
+    padding: 0;
+    margin: 5vh;
+    font-size: large;
+    background-image: url("media/elderly\ people\ bg.jpg");
+    background-color: white;
+}
+
+/*Styling for the header of signup page*/
+#signupHEADER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    margin-top: -5vh;
+}
+
+/*Styling for the title and tagline of signup page*/
+#signupNAME{
+    color: white;
+    font-weight: bolder;
+}
+
+/*Styling for the signup form container*/
+#signupform{
+    display: flex;
+    width: 55vw;
+    margin-left: 20vw;
+    border: 1px solid black;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*Styling for description sections*/
+.description{
+    text-align: justify;
+    margin: 5px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-right: 0.5vw;
+}
+
+/*Styling for a vertical border element*/
+#border{
+    height: 86vh;
+    border-left: 1px solid black;
+}
+
+/*Styling for the form element*/
+#form{
+    width: 50vw;
+    padding: 15px;
+}
+
+/*Styling for the submit button*/
+#submit{
+    background-color: white;
+    margin-left: 8.5vw;
+    padding: 7px;
+    font-size: large;
+    width: 8vw;
+}
+
+/*Styling for fieldset elements*/
+#fieldset{
+    background-image: linear-gradient(to right,  rgb(108, 210, 254), rgb(64, 0, 255));
+}
+
+/*Styling for symbols indicating required fields*/
+.requiredsymbol{
+    color: red;
+}
+
+/*Styling for text indicating required fields*/
+.requiredAreas{
+    color: red;
+    font-style: italic;
+    font-style: italic;
+    font-weight: 200;
+}
+
+/*Styling for h1 headings*/
+h1{
+    text-align: center;
+}
+
+/*Styling for h3 headings*/
+h3{
+    text-align: left;
+}
+
+/*Specific styling for paragraphs within description divs*/
+div.description p{
+    text-indent: 3vw;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to left, #034eae, #5cdce4);
+    height: 100vh;
+    overflow-y: hidden;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(to left, #034eae, #5cdce4);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navi {
+    display: flex;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.logopic {
+    height: 50px;
+    margin-right: 10px;
+}
+.texts {
+    display: flex;
+    align-items: center;
+}
+
+.texts p {
+    margin: 0;
+    padding: 0 10px; 
+    display: inline;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px; 
+}
+
+.menu {
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu a {
+    margin-right: 40px; 
+    text-decoration: none;
+    color: #000; 
+}
+
+.search {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    border-radius: 10vw;
+    background-color: transparent;
+    width: 14vw;
+    height: 1vw;
+  }
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding: 20px;
+}
+
+.profile {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-card {
+    background: #ffffff;
+    padding: 20px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    width: 50vw;
+    height: 29.9vw;
+    margin-top: 7.25vw;
+    margin-right: 10vh;
+    margin-left: 10vw;
+}
+.profile-card p{
+    margin-bottom: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.circle{
+    height: 15vw;
+    width: 15vw;
+    margin-bottom: -14vw;
+    margin-left: 22vw;
+}
+.avatar {
+    width: 10vw;
+    height: 10vw;
+    margin-left: 11.9vw;
+    margin-top: -6.8vw;
+    background: #ccc;
+    border-radius: 50%;
+    margin-bottom: 2vw;
+}
+.fullname h1{
+    display: inline-block;
+    margin-bottom: 1vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fullname{
+    text-align: center;
+}
+#outputsupport{
+    text-align: justify;
+}
+
+.details{
+    margin-top: 10vw;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.details h1{
+    margin-top: -5vw;
+    margin-bottom: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.details p{
+    margin-bottom: 3vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+button#volunteerButton {
+    background: #ffffff;
+    font-weight: bold;
+    color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#volunteerButton:hover {
+    background: #0056b3;
+}
+
+
+
+.socmed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+    margin-top: -15vw;
+    margin-left: 3vw;
+}
+
+.socmed img{
+    width: 60px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1vw;
+}

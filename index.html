@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Golden Years Together</title>
+</head>
+<body id="signupBG">
+    <!-- Header section -->
+    <header id="signupHEADER">
+        <div class="navi">
+            <img src="media/logo.png" alt="logo" class="logopic"><!-- campaign logo -->
+            <div class="texts">
+                <p id="signupNAME">Golden Years Together | </p><!-- campaign title -->
+                <p id="signupNAME">Building a Community of Care</p><!-- campaign tagline -->
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Main content section with signup form -->
+    <main id="signupform">
+        <!-- Description section -->
+        <div class="description">
+            <h1>Empowering Elders: Health, Care, and Connection for Every Senior!</h1>
+            <h3>> What Does Aging in Solitude Do?</h3>
+            <p>Our campaign, "Golden Years Together," seeks to support elderly individuals living in remote areas without nearby family. We raise funds to cover their living expenses and organize volunteer efforts to provide companionship and assistance. By donating or volunteering, you can make a meaningful difference in the lives of these isolated seniors, ensuring they receive the care and companionship they deserve. Join us in bringing warmth and support to those in need.</p>
+            <h3>> What Does a Volunteer of Aging in Solitude Do?</h3>
+            <p>Volunteers help with daily tasks, offer emotional support, and facilitate recreational activities to keep the seniors active and engaged.</p>
+        </div>
+
+        <!-- Vertical border for visual separation -->
+        <div id="border"></div>
+
+        <!-- Signup form section -->
+        <div id="form">
+            <form id="userInput" onsubmit="return submitInput()">
+                <fieldset id="fieldset">
+                    <h1>Sign Up</h1><br>
+                    
+                    <!-- First name input field -->
+                    <label for="fname">First Name: <span class="requiredsymbol">*</span></label>
+                    <input type="text" id="fname" name="fname" oninput="checkfname()">
+                    <span class="requiredAreas" id="fnamerequired"></span><br><br>
+            
+                    <!-- Last name input field -->
+                    <label for="lname">Last Name: <span class="requiredsymbol">*</span></label>
+                    <input type="text" id="lname" name="lname" oninput="checklname()">  
+                    <span class="requiredAreas" id="lnamerequired"></span><br><br>
+
+                    <!-- Sex selection using radio buttons -->
+                    <p>Sex: <span class="requiredsymbol">*</span></p>
+                        <input type="radio" id="female" name="sex" value="Female" oninput="checksex()">
+                        <label for="female">Female</label></br>
+                        <input type="radio" id="male" name="sex" value="Male" oninput="checksex()">
+                        <label for="male">Male</label></br>
+                        <input type="radio" id="nosay" name="sex" value="Prefer Not To Say" oninput="checksex()">
+                        <label for="nosay">Prefer Not To Say</label>
+                    <span class="requiredAreas" id="sexrequired"></span><br><br>
+                    
+
+                    <!-- Email address input field -->
+                    <label for="email">Email Address: <span class="requiredsymbol">*</span></label>
+                    <input type="email" id="email" name="email" oninput="checkemail()">
+                    <span class="requiredAreas" id="emailrequired"></span><br><br>
+            
+                    <!-- Password input field -->
+                    <label for="pword">Password: <span class="requiredsymbol">*</span></label>
+                    <input type="password" id="pword" name="pword" oninput="checkpword()">
+                    <span class="requiredAreas" id="pwordrequired"></span><br><br>
+
+                    <!-- Contact number input field -->
+                    <label for="contact">Contact Number: </label>
+                    <input type="text" id="contact" name="contact"><br><br>
+                    
+                    <!-- Textarea for campaign support explanation -->
+                    <label for="support">Why I support this campaign? <span class="requiredsymbol">*</span></label><br>
+                    <textarea id="support" name="support" rows="5" cols="50" oninput="checksupport()"></textarea>
+                    <span class="requiredAreas" id="supportrequired"></span><br><br>
+                    
+                    <!-- Submit button -->
+                    <input type="submit" value="Sign Up" id="submit">
+                    <br>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+    
+    <link rel="stylesheet" type="text/css" href="style.css"><!--external css file-->
+
+    <script type="text/javascript" src="scripts.js"></script><!--external js file-->
+
+</body>
+</html>

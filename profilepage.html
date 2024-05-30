@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page | Golden Years Together</title>
+</head>
+<body onload="output()">
+    <header>
+        <div class="navi">
+            <img src="media/logo.png" alt="logo" class="logopic"><!--campaign logo-->
+            <div class="texts">
+                <p>Golden Years Together | </p><!--campaign title-->
+                <p>Building a Community of Care</p> <!--campaign tagline-->
+            </div>
+        </div>
+        <nav>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">Work</a>
+                <a href="#">About</a>
+                <a href="#">Donate</a>
+            </div>
+            <input type="text" id="Search" class="search">
+        </nav>
+    </header>
+    <img src="media/profcardcircle.png" class="circle">
+    <main>
+        <section class="profile">
+            <div class="profile-card">
+                <img  class="avatar" src="media/profpic.png">
+                <div class="fullname">
+                <h1 id="outputfname"></h1>
+                <h1 id="outputlname"></h1>
+                </div>
+                <p>Why I support this campaign?</p>
+                <p id="outputsupport"></p>
+            </div>
+            <div class="details">
+                <h1>Volunteer</h1>
+                <p>Volunteers help with daily tasks, offer emotional support, and facilitate recreational activities to keep the seniors active and engaged.</p>
+                <p>Personal Information:</p>
+                <p id="outputsex"></p>
+                <p id="outputemail"></p>
+                <p id="outputcontact"></p>
+                <button id="volunteerButton">Volunteer Now!</button>
+            </div>
+        </section>  
+    </main>
+    <div class="socmed">
+        <a href="#"><img src="media/ig.png" alt="Instagram"></a>
+        <a href="#"><img src="media/twt.png" alt="Twitter"></a>
+        <a href="#"><img src="media/whatsapp.png" alt="WhatsApp"></a>
+    </div>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

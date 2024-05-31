@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page | Golden Years Together</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body onload="output()">
+    <!-- Header Section -->
     <header>
         <div class="navi">
-            <img src="media/logo.png" alt="logo" class="logopic"><!--campaign logo-->
+            <!-- Campaign logo -->
+            <img src="media/logo.png" alt="logo" class="logopic">
             <div class="texts">
-                <p>Golden Years Together | </p><!--campaign title-->
-                <p>Building a Community of Care</p> <!--campaign tagline-->
+                <!-- Campaign title and tagline -->
+                <p>Golden Years Together | </p>
+                <p>Building a Community of Care</p>
             </div>
         </div>
+        <!-- Navigation Menu -->
         <nav>
             <div class="menu">
                 <a href="#">Home</a>
@@ -21,21 +27,26 @@
                 <a href="#">About</a>
                 <a href="#">Donate</a>
             </div>
+            <!-- Search Input -->
             <input type="text" id="Search" class="search">
         </nav>
     </header>
+    <!-- Profile Picture -->
     <img src="media/profcardcircle.png" class="circle">
+    <!-- Main Content -->
     <main>
         <section class="profile">
+            <!-- Profile Card -->
             <div class="profile-card">
-                <img  class="avatar" src="media/profpic.png">
+                <img class="avatar" src="media/profpic.png" alt="Avatar">
                 <div class="fullname">
-                <h1 id="outputfname"></h1>
-                <h1 id="outputlname"></h1>
+                    <h1 id="outputfname"></h1>
+                    <h1 id="outputlname"></h1>
                 </div>
                 <p>Why I support this campaign?</p>
                 <p id="outputsupport"></p>
             </div>
+            <!-- Profile Details -->
             <div class="details">
                 <h1>Volunteer</h1>
                 <p>Volunteers help with daily tasks, offer emotional support, and facilitate recreational activities to keep the seniors active and engaged.</p>
@@ -47,12 +58,13 @@
             </div>
         </section>  
     </main>
+    <!-- Social Media Links -->
     <div class="socmed">
         <a href="#"><img src="media/ig.png" alt="Instagram"></a>
         <a href="#"><img src="media/twt.png" alt="Twitter"></a>
         <a href="#"><img src="media/whatsapp.png" alt="WhatsApp"></a>
     </div>
+    <!-- Link to external JavaScript file -->
     <script src="scripts.js"></script>
-    <link rel="stylesheet" href="style.css">
 </body>
 </html>
